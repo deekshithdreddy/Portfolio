@@ -13,6 +13,8 @@ document.addEventListener('mousemove', (e) => {
     }, 100);
 });
 
+
+
 document.addEventListener('mousedown', () => {
     cursor.style.transform = 'scale(0.7)';
     cursorFollower.style.transform = 'scale(0.7)';

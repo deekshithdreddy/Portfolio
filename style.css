@@ -545,10 +545,14 @@ nav {
     }
     .hero.revealed::before {
         pointer-events: none;
+        z-index: 1;
       }
+
     
     .social-icons {
         justify-content: center;
+        position:relative;
+        z-index: 2;
     }
     
     /* Navigation improvements */

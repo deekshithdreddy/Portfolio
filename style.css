@@ -333,6 +333,7 @@ nav {
     font-size: 18px;
     transition: var(--transition);
     box-shadow: var(--box-shadow);
+    z-index: 1002; /* Increased z-index */
 }
 
 .social-icon:hover {

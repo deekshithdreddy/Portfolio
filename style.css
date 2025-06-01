@@ -543,6 +543,9 @@ nav {
         width: 250px;
         max-width: 80%;
     }
+    .hero.revealed::before {
+        pointer-events: none;
+      }
     
     .social-icons {
         justify-content: center;
